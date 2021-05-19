@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat:ital,wght@1,600&family=Open+Sans:wght@600&family=Pacifico&family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat+Alternates:ital,wght@1,700&family=Montserrat:ital,wght@1,600&family=Open+Sans:wght@600&family=Raleway:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/burger.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 80px;
+}
+
+form {
+    color: white;
+}
+
+form p, form h4 {
+    font-family: Gloria Hallelujah;
+}
+
+form p {
+    font-size: 20px;
+}
+
+form h1, form h3, form label {
+    font-family: 'Montserrat', sans-serif;
+}
+
+form h3 {
+    text-align: center;
+}
+
+.orderDetails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.orderDetails div {
+    border: 2px solid white;
+    background-color: black;
+    margin-top: 6px;
+    flex-basis: 230px;
+    text-align: center;
+}
+
+.menu_food{
+    display: block;
+}
