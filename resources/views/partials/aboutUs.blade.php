@@ -73,14 +73,14 @@ background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
 
 
   <div class="avatar mx-auto white avatarfotoresize" >
-    <img src="aboutpart/img/cardfotomy6.jpg" class="rounded-circle fotocardmy1"
+    <img src="https://scontent.ftas2-1.fna.fbcdn.net/v/t1.6435-9/139186034_916662782204502_256974999458152420_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=a26aad&_nc_ohc=AotlrqD6mNIAX-6aIRt&_nc_ht=scontent.ftas2-1.fna&oh=4a1d3e35eb0e4d401484080c5d41bef9&oe=60CCEA37" class="rounded-circle fotocardmy1"
       alt="woman avatar" >
   </div>
 
 
   <div class="card-body">
 
-    <h4 class="card-title">Stalik Khankishiev</h4>
+    <h4 class="card-title">Ozodbek Ulashov U1910304</h4>
     <hr>
 
     <p>
@@ -102,14 +102,14 @@ background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
 
 
   <div class="avatar mx-auto white">
-    <img src="aboutpart/img/cardfotomy7.jpg" class="rounded-circle fotocardmy1"
+    <img src="aboutpart/img/Abdulaziz.jpg" class="rounded-circle fotocardmy1"
       alt="woman avatar" >
   </div>
 
 
   <div class="card-body">
 
-    <h4 class="card-title">Nodira Asilova</h4>
+    <h4 class="card-title">Jalilov Abdulaziz U1910203</h4>
     <hr>
 
     <p>
@@ -133,14 +133,14 @@ background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
 
 
   <div class="avatar mx-auto white">
-    <img src="aboutpart/img/cardfotomy8.jpg" class="rounded-circle fotocardmy1"
+    <img src="aboutpart/img/Javohir.png" class="rounded-circle fotocardmy1"
       alt="woman avatar">
   </div>
 
 
   <div class="card-body">
 
-    <h4 class="card-title">Bektemir Hursanov</h4>
+    <h4 class="card-title">Tojiyev Javohir </h4>
     <hr>
 
     <p>

@@ -23,7 +23,8 @@
             </div>
             <div class="col-md-4">
                 <p>Hello!<br>
-                    I am Burger, recognized maestro for satisfying hunger and raising a smile on people's faces. I was born in 2021 in Tashkent and gradually grew and developed, so I still had 3 brothers: the Elder “Metro Burger”, the twin “Cheese Lavash” and the younger “Mini” we all call it “Mini’ ’”.</p>
+                    Our team name is Pheonix ! Our team consists of Ulashov Ozodbek U1910304,Mirjalilov Abdulaziz U1910203, Tojiyev Javohir U1910118, Khaydarov Elbek U1910094, Shakhriyor,
+                    </p>
                 <div class="footer-copyright text-center py-3">© 2021 Copyright:
                     <i> <a href="/"> Phoenix_IUT_Team Restaurant</a></i>
                 </div>

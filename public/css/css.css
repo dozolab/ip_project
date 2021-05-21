@@ -564,6 +564,9 @@ footer iframe {
     border-radius: .5rem;
 }
 
+img{
+    object-fit: cover;
+}
 
 
 

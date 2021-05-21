@@ -183,17 +183,31 @@
                         class="postImg">
                 </div>
             </div>
-            <div class="col-md-4 side">
+            <div class="col-12 side">
                 <div class="sidebar">
-                    <div class="category">
+                    <div class="container">
                         <h2>Category</h2>
+                        <ul class="row">
 
-                        <ul class="category-list">
                             @foreach($categories as $category)
-                                <li
-                                    class="list-item">
-                                    <a href="{{route('pages.menu')}}#{{ $category->category }}">{{ $category->category }}</a>
-                                </li>
+                                <div class="media d-flex flex-wrap col-3 mb-5" style="padding-left:20px!important;">
+                                    @if(strpos($category->category, 'rinks'))
+                                    <img class="img-fluid align-self-start mr-3" src="https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2020/01/02/2020-trends-to-watch-in-us-beverage/10484034-2-eng-GB/2020-trends-to-watch-in-US-beverage_wrbm_large.jpg" alt="Generic placeholder image">
+                                    @elseif(strpos($category->category, 'sert'))
+                                        <img class="img-fluid align-self-start mr-3" src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dessert-main-image-molten-cake-0fbd4f2.jpg?webp=true&quality=90&resize=500%2C454" alt="Generic placeholder image">
+
+
+                                    @else
+                                        <img class="img-fluid align-self-start mr-3" src="https://image.freepik.com/free-photo/traditional-uzbek-oriental-cuisine-uzbek-family-table-from-different-dishes-new-year-holiday_127425-162.jpg" alt="Generic placeholder image">
+                                    @endif
+                                        <div class="media-body">
+                                        <li
+                                            class="">
+                                            <a href="{{route('pages.menu')}}#{{ $category->category }}">{{ $category->category }}</a>
+                                        </li>
+                                    </div>
+                                </div>
+
                             @endforeach
                         </ul>
                     </div>
